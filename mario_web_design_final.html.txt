@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MARIO WEB DESIGN</title>
+
+<style>
+body {
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f7fb;
+color:#222;
+}
+
+.container {
+width:92%;
+max-width:1200px;
+margin:auto;
+}
+
+header {
+background:#fff;
+border-bottom:1px solid #e5e7eb;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.header-inner {
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo {
+display:flex;
+align-items:center;
+gap:14px;
+font-size:26px;
+font-weight:bold;
+}
+
+.logo-icon {
+width:52px;
+height:52px;
+border-radius:12px;
+background:linear-gradient(135deg,#2563eb,#1e3a8a);
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+font-size:30px;
+font-weight:bold;
+}
+
+nav ul {
+display:flex;
+gap:28px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav a {
+text-decoration:none;
+color:#222;
+font-weight:bold;
+}
+
+.hero {
+padding:80px 0;
+background:#fff;
+}
+
+.hero-inner {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero h1 {
+font-size:54px;
+line-height:1.4;
+margin-bottom:20px;
+}
+
+.hero p {
+font-size:18px;
+line-height:1.9;
+color:#555;
+}
+
+.check-list {
+margin-top:25px;
+}
+
+.check-list div {
+margin-bottom:10px;
+font-weight:bold;
+}
+
+.hero-image {
+height:420px;
+border-radius:18px;
+background:linear-gradient(135deg,#e0ecff,#c7dbff);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:40px;
+font-weight:bold;
+color:#1e40af;
+}
+
+.btn {
+display:inline-block;
+background:#2563eb;
+color:#fff;
+padding:18px 38px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+margin-top:28px;
+}
+
+section {
+padding:70px 0;
+}
+
+.section-title {
+font-size:34px;
+margin-bottom:35px;
+border-left:5px solid #2563eb;
+padding-left:14px;
+}
+
+.grid {
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:22px;
+}
+
+.card {
+background:#fff;
+border:1px solid #e5e7eb;
+padding:28px;
+border-radius:14px;
+}
+
+.card h3 {
+margin-top:0;
+font-size:22px;
+}
+
+.work-grid {
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px;
+}
+
+.work-item {
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+border:1px solid #e5e7eb;
+}
+
+.work-image {
+height:140px;
+background:#dbeafe;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+color:#1e40af;
+}
+
+.work-title {
+padding:12px;
+font-size:14px;
+font-weight:bold;
+}
+
+.price-table {
+width:100%;
+border-collapse:collapse;
+background:#fff;
+}
+
+.price-table td {
+border:1px solid #ddd;
+padding:16px;
+}
+
+.contact {
+background:#fff;
+text-align:center;
+}
+
+.contact-text {
+font-size:18px;
+line-height:1.8;
+}
+
+.qr-area {
+margin-top:35px;
+}
+
+.qr-area img {
+width:180px;
+border:1px solid #ddd;
+border-radius:12px;
+background:#fff;
+padding:12px;
+}
+
+footer {
+background:#2563eb;
+color:#fff;
+text-align:center;
+padding:24px 0;
+margin-top:60px;
+}
+
+@media(max-width:768px) {
+
+.hero-inner {
+grid-template-columns:1fr;
+}
+
+.hero h1 {
+font-size:38px;
+}
+
+.grid {
+grid-template-columns:1fr;
+}
+
+.work-grid {
+grid-template-columns:1fr 1fr;
+}
+
+nav {
+display:none;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container header-inner">
+
+<div class="logo">
+<div class="logo-icon">M</div>
+<div>MARIO WEB DESIGN</div>
+</div>
+
+<nav>
+<ul>
+<li><a href="#">ホーム</a></li>
+<li><a href="#">サービス</a></li>
+<li><a href="#">制作の流れ</a></li>
+<li><a href="#">制作実績</a></li>
+<li><a href="#">料金</a></li>
+<li><a href="#">お問い合わせ</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+<section class="hero">
+
+<div class="container hero-inner">
+
+<div>
+
+<h1>
+小さなお店・個人事業主向けの<br>
+ホームページ制作サービス
+</h1>
+
+<p>
+親子で運営する、丁寧で低価格なWEB制作を行っています。
+</p>
+
+<div class="check-list">
+<div>✔ まずは安くホームページを作りたい</div>
+<div>✔ スマホ対応したホームページが欲しい</div>
+<div>✔ 公開までまとめてお願いしたい</div>
+</div>
+
+<a href="https://line.me/R/ti/p/@972ereuy" class="btn">
+LINEで相談する
+</a>
+
+</div>
+
+<div class="hero-image">
+MARIO WEB DESIGN
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">SERVICE</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>ホームページ制作</h3>
+<p>シンプルで見やすいホームページを制作します。</p>
+</div>
+
+<div class="card">
+<h3>LP制作</h3>
+<p>商品・サービス紹介用LPを制作します。</p>
+</div>
+
+<div class="card">
+<h3>画像制作</h3>
+<p>Xヘッダー・NOTE画像など制作します。</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">FLOW</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>01 ヒアリング</h3>
+<p>ご希望内容を丁寧にお聞きします。</p>
+</div>
+
+<div class="card">
+<h3>02 ホームページ制作</h3>
+<p>スマホ対応ホームページを制作します。</p>
+</div>
+
+<div class="card">
+<h3>03 公開</h3>
+<p>公開までまとめて対応します。</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">WORK SAMPLE</h2>
+
+<div class="work-grid">
+
+<div class="work-item">
+<div class="work-image">SALON</div>
+<div class="work-title">メンズサロン向け</div>
+</div>
+
+<div class="work-item">
+<div class="work-image">CAFE</div>
+<div class="work-title">カフェ向け</div>
+</div>
+
+<div class="work-item">
+<div class="work-image">SHOP</div>
+<div class="work-title">美容室向け</div>
+</div>
+
+<div class="work-item">
+<div class="work-image">LP</div>
+<div class="work-title">LPデザイン</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">PRICE</h2>
+
+<table class="price-table">
+
+<tr>
+<td>ホームページ制作</td>
+<td>30,000円〜</td>
+</tr>
+
+<tr>
+<td>LP制作</td>
+<td>10,000円〜</td>
+</tr>
+
+<tr>
+<td>画像制作</td>
+<td>1,500円〜</td>
+</tr>
+
+<tr>
+<td>ホームページ修正</td>
+<td>3,000円〜</td>
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<h2 class="section-title">CONTACT</h2>
+
+<p class="contact-text">
+ホームページ制作・画像制作など<br>
+お気軽にご相談ください。
+</p>
+
+<a href="https://line.me/R/ti/p/@972ereuy" class="btn">
+LINEで相談する
+</a>
+
+<div class="qr-area">
+<img src="line-qr.jpeg" alt="LINE QRコード">
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 MARIO WEB DESIGN
+</footer>
+
+</body>
+</html>
