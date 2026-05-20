@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 86" role="img" aria-label="MARIO WEB DESIGN M logo">
+  <defs>
+    <linearGradient id="mario-blue" x1="22" y1="6" x2="84" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0067e6"/>
+      <stop offset="0.42" stop-color="#16c9f3"/>
+      <stop offset="1" stop-color="#0651d2"/>
+    </linearGradient>
+    <linearGradient id="mario-navy" x1="20" y1="10" x2="98" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#063fc0"/>
+      <stop offset="1" stop-color="#061b73"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="86" fill="#fff"/>
+  <path d="M14 80V6h14v74H14Z" fill="url(#mario-navy)"/>
+  <path d="M92 80V6h14v74H92Z" fill="url(#mario-navy)"/>
+  <path d="M14 6h15l31 39L91 6h15L60 64 14 6Z" fill="url(#mario-blue)"/>
+  <path d="M40 49V30l20 25 20-25v19L60 74 40 49Z" fill="url(#mario-navy)"/>
+</svg>

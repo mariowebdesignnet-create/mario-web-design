@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 100" role="img" aria-label="MARIO WEB DESIGN horizontal logo">
+  <defs>
+    <linearGradient id="mario-blue" x1="14" y1="14" x2="74" y2="74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0067e6"/>
+      <stop offset="0.42" stop-color="#16c9f3"/>
+      <stop offset="1" stop-color="#0651d2"/>
+    </linearGradient>
+    <linearGradient id="mario-navy" x1="12" y1="15" x2="88" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#063fc0"/>
+      <stop offset="1" stop-color="#061b73"/>
+    </linearGradient>
+  </defs>
+  <rect width="430" height="100" fill="#fff"/>
+  <g transform="translate(12 12) scale(.88)">
+    <path d="M14 80V6h14v74H14Z" fill="url(#mario-navy)"/>
+    <path d="M92 80V6h14v74H92Z" fill="url(#mario-navy)"/>
+    <path d="M14 6h15l31 39L91 6h15L60 64 14 6Z" fill="url(#mario-blue)"/>
+    <path d="M40 49V30l20 25 20-25v19L60 74 40 49Z" fill="url(#mario-navy)"/>
+  </g>
+  <g fill="#071b75" transform="translate(119 34)">
+    <rect x="0" y="0" width="7" height="7"/>
+    <rect x="15" y="0" width="7" height="7"/>
+    <path d="M11 12l3.3 10.2H25l-8.7 6.3 3.3 10.2L11 32.4l-8.7 6.3 3.3-10.2L-3 22.2H7.7L11 12Z"/>
+  </g>
+  <text x="157" y="58" fill="#071b75" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="3">MARIO</text>
+  <text x="159" y="81" fill="#071b75" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="9">WEB DESIGN</text>
+</svg>
