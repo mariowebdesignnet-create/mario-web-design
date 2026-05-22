@@ -1,0 +1,73 @@
+.bright-hero-mockup .hero {
+  min-height: 342px;
+  color: #071126;
+  background:
+    linear-gradient(90deg, #ffffff 0%, #f9fcff 42%, rgba(236, 246, 255, 0.72) 68%, rgba(255, 255, 255, 0.18) 100%),
+    #ffffff;
+}
+
+.bright-hero-mockup .hero::before {
+  background:
+    linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.96) 38%, rgba(255, 255, 255, 0.48) 63%, rgba(255, 255, 255, 0.1) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(226, 240, 255, 0.28));
+}
+
+.bright-hero-mockup .hero-bg {
+  width: 58%;
+  object-position: center;
+  filter: brightness(1.12) contrast(1.06) saturate(1.04);
+}
+
+.bright-hero-mockup .hero-copy {
+  width: 58%;
+  min-height: 342px;
+  padding: 54px 54px 46px 112px;
+}
+
+.bright-hero-mockup .hero h1 {
+  color: #071126;
+  text-shadow: none;
+}
+
+.bright-hero-mockup .hero p {
+  color: #111827;
+}
+
+.bright-hero-mockup .check-list {
+  color: #071126;
+}
+
+.bright-hero-mockup .check-list li::before {
+  background: linear-gradient(180deg, #1477ff, #004eb7);
+  box-shadow: 0 5px 12px rgba(0, 78, 183, 0.22);
+}
+
+.bright-hero-mockup .primary-button {
+  box-shadow: 0 12px 24px rgba(0, 78, 183, 0.24);
+}
+
+@media (max-width: 820px) {
+  .bright-hero-mockup .hero {
+    min-height: 310px;
+  }
+
+  .bright-hero-mockup .hero::before {
+    background:
+      linear-gradient(90deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.88) 64%, rgba(255, 255, 255, 0.38) 100%);
+  }
+
+  .bright-hero-mockup .hero-bg {
+    width: 100%;
+    object-position: center bottom;
+    filter: brightness(1.04) contrast(1.04) saturate(1.04);
+  }
+
+  .bright-hero-mockup .hero-copy {
+    min-height: 310px;
+    padding: 25px 20px 22px;
+  }
+
+  .bright-hero-mockup .hero p {
+    color: #111827;
+  }
+}
